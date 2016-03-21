@@ -1,0 +1,36 @@
+{
+  "name": "fox-cove",
+  "version": "1.0.0",
+  "description": "Work log personal fast project",
+  "main": "lib/index.js",
+  "bin": {
+    "fxc": "bin/index.js"
+  },
+  "scripts": {
+    "test": "mocha ./test/spec/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zorrodg/fox-cove.git"
+  },
+  "keywords": [
+    "worklog"
+  ],
+  "author": "Andres Zorro <zorrodg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zorrodg/fox-cove/issues"
+  },
+  "homepage": "https://github.com/zorrodg/fox-cove#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "commander": "^2.9.0",
+    "moment": "^2.12.0",
+    "q": "^1.4.1",
+    "shelljs": "^0.6.0"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.5.1",
+    "mocha": "^2.4.5"
+  }
+}

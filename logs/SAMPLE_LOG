@@ -1,0 +1,124 @@
+2016-03-21T06:13:45
+  Starting worklog project. Codename: FOX-COVE
+2016-03-21T06:14:18
+  [GOAL]: Set something real quick before Anna wakes up.
+2016-03-21T06:14:55
+  [GOAL]: Be able to make a log like this using a CLI
+    [#1]: Keep track of all logs from all time
+    [#2]: Be able to indent sub goals to the current goal
+    [#3]: Be able to start/end goals
+    [#4]: Be able to view logs providing a time/time range
+    [#5]: Be able to log coffee breaks
+    [#6]: Be able to edit the last log entry (that is not a Coffee Break)
+    [#7]: Sub goals can be added/removed to the current goal without affecting history
+    [#8]: Be able to log last CLI command
+    [#9]: Be able to log searches
+    [#10]: Be able to log filtered by TODOs (assign ID to track them down)
+    [#11]: Be able to complete TODOs by ID
+2016-03-21T06:19:16
+  ---- COFFEE BREAK ----
+2016-03-21T06:21:48
+  Setting up github repo...
+2016-03-21T06:23:05
+  git@github.com:zorrodg/fox-cove.git
+2016-03-21T06:23:11
+  Cloning repo to local "fox-cove" folder
+2016-03-21T06:24:32
+  [$]: g clone git@github.com:zorrodg/fox-cove.git
+2016-03-21T06:26:24
+  Setting up npm package.json
+2016-03-21T06:26:41
+  [$]: npm init
+2016-03-21T06:28:59
+  Installing moment as a dependency
+2016-03-21T06:29:41
+  [$]: npm i moment --save
+2016-03-21T06:30:09
+  Defining folder structure
+2016-03-21T06:31:11
+  [SEARCH]: npm bin
+2016-03-21T06:37:06
+  I'll probably need shelljs and commander
+2016-03-21T06:38:42
+  [$]: npm i --save commander shelljs
+2016-03-21T06:38:57
+  [SEARCH]: Commander API
+2016-03-21T06:50:33
+  [SEARCH]: File writing in node
+2016-03-21T06:53:58
+  npm i --save denodeify
+2016-03-21T06:57:05
+  [TODO #1]: Add a js linter
+2016-03-21T07:00:16
+  [SEARCH]: node create file if not exists
+2016-03-21T07:01:51
+  I'll probably need chalk too
+2016-03-21T07:02:27
+  [$]: npm i --save chalk
+2016-03-21T07:05:05
+  [IDEA]: When the file is big enough, rename it and create a new one
+2016-03-21T07:10:36
+  [IDEA]: When google option, log term, then open a browser and google passed term
+2016-03-21T07:27:32
+  [IDEA]: When command option, log command, then execute passed command
+2016-03-21T07:29:12
+  ---- COFFEE BREAK ----
+2016-03-21T07:30:31
+  Adding "logs" folder
+2016-03-21T07:42:09
+  Found a problem in the goals API. I should be able to modify the list of subgoals. Otherwise, I'll have to track goals by ID, and that's not good
+2016-03-21T07:44:00
+  [SEARCH]: Unit test node bin
+2016-03-21T07:53:43
+  Trying out mocha for Unit Testing
+2016-03-21T07:53:55
+  [$]: npm i --save-dev mocha
+2016-03-21T07:54:42
+  Writing sample test
+2016-03-21T07:57:36
+  Might need concat-stream for unit testing
+2016-03-21T07:57:48
+  [$]: npm i --save-dev concat-stream
+2016-03-21T08:00:42
+  [SEARCH]: Using mocha
+2016-03-21T08:10:03
+  Adding Q as promise library and removing denodeify, for better legacy support
+2016-03-21T08:10:31
+  [$]: npm un --save denodeify
+2016-03-21T08:11:06
+  [$]: npm i --save q
+2016-03-21T08:16:19
+  [SEARCH]: node q
+2016-03-21T08:18:34
+  [SEARCH]: Mocha done function
+2016-03-21T08:25:43
+  Probably a good idea to separate prefixes to an utils function
+2016-03-21T08:30:03
+  [IDEA]: Allow the user to define it's own search engine
+2016-03-21T08:31:08
+  ---- COFFEE BREAK ----
+2016-03-21T08:32:15
+  Separating tests folder from test utils folder
+2016-03-21T08:35:06
+  Adding README.md file
+2016-03-21T08:42:46
+  [IDEA]: Allow user to dump logs and delete them when they're outdated
+2016-03-21T08:49:23
+  [SEARCH]: commander sub options
+2016-03-21T09:01:11
+  [IDEA]: Command to output current log file to allow user modifications
+2016-03-21T09:03:46
+  [GOAL]: Be able to make a log like this using a CLI
+    [#1]: Keep track of all logs from all time
+    [#2]: Be able to indent sub goals to the current goal
+    [#3]: Be able to log coffee breaks
+    [#4]: Be able to edit the last log entry (that is not a Coffee Break)
+    [#5]: Be able to log last CLI command
+    [#6]: Be able to log searches
+2016-03-21T09:29:08
+  ---- COFFEE BREAK ----
+2016-03-21T09:33:13
+  Anna woke up. I've got until 10:00
+2016-03-21T09:33:32
+  It's probably a good idea to commit all of these changes
+
