@@ -127,3 +127,15 @@
   [$]: git commit -m 'Initial commit. WIP: Looking good!'
 2016-03-21T09:35:54
   Ugh, forgot to git ignore node_modules
+2016-03-21T09:37:54
+  [$]: git rm node_modules -r
+2016-03-21T09:38:05
+  [$]: npm i
+2016-03-21T09:38:19
+  [$]: git status
+2016-03-21T09:38:43
+  [$]: git add --all
+2016-03-21T09:39:11
+  [$]: git commit -m "Removing node_modules"
+2016-03-21T09:39:59
+  [$]: git add --all && git commit -m "Updating SAMPLE_LOG"
