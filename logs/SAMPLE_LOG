@@ -121,4 +121,9 @@
   Anna woke up. I've got until 10:00
 2016-03-21T09:33:32
   It's probably a good idea to commit all of these changes
-
+2016-03-21T09:33:58
+  [$]: git add --all
+2016-03-21T09:34:15
+  [$]: git commit -m 'Initial commit. WIP: Looking good!'
+2016-03-21T09:35:54
+  Ugh, forgot to git ignore node_modules
