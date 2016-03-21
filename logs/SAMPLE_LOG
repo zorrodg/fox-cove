@@ -139,3 +139,16 @@
   [$]: git commit -m "Removing node_modules"
 2016-03-21T09:39:59
   [$]: git add --all && git commit -m "Updating SAMPLE_LOG"
+2016-03-21T09:42:02
+  Got 20 mins to make this work!
+2016-03-21T09:43:50
+  Thought about an use case. What if an user sends more than one option?
+2016-03-21T10:06:23
+  First successful attempt to log something
+2016-03-21T10:16:50
+  Both tests passed! Pushing this to git
+2016-03-21T10:17:17
+  [$]: git add --all
+2016-03-21T10:17:33
+  [$]: git commit -m "WIP: Testing first log"
+
