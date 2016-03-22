@@ -151,4 +151,21 @@
   [$]: git add --all
 2016-03-21T10:17:33
   [$]: git commit -m "WIP: Testing first log"
+2016-03-22T06:21:20
+  ---- WORK START ----
+2016-03-22T06:17:49
+  I've got 20 minutes. Setting up a quick goal
+2016-03-22T06:18:08
+  [GOAL]: Be able to log last CLI command
+    [#1]: When command option, log command, then execute passed command
+    [#2]: Log start/stop (define a name)
+2016-03-22T06:29:57
+  [SEARCH]: Q.resolve
+2016-03-22T06:41:17
+  [SEARCH]: mocha settimeout per test
+2016-03-21T10:17:17
+  [$]: git add --all
+2016-03-21T10:17:33
+  [$]: git commit -m "WIP: Adding support for tests on coffee break"
+
 
