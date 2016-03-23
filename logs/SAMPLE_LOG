@@ -167,5 +167,44 @@
   [$]: git add --all
 2016-03-21T10:17:33
   [$]: git commit -m "WIP: Adding support for tests on coffee break"
-
+2016-03-21T10:17:33
+  ---- WORK STOP ----
+2016-03-23T06:10:51
+  ---- WORK START ----
+2016-03-23T06:23:38
+  [SEARCH]: Array reduce
+2016-03-23T06:59:13
+  Completed work / coffee features with tests
+2016-03-23T06:59:51
+  [SEARCH]: output last send command
+2016-03-23T07:10:06
+  [SEARCH]: shelljs
+2016-03-23T07:11:51
+  Hmm, uninstalling shelljs
+2016-03-23T07:12:02
+  [$]: npm un --save shelljs
+2016-03-23T07:12:57
+  [IDEA]: Be able to mark subgoals as finished. Goals don't need to be marked as finished. Just overwritten with new goals.
+2016-03-23T07:24:26
+  [SEARCH]: shell echo an error
+2016-03-23T07:28:41
+  [SEARCH]: node spawn stream
+2016-03-23T07:50:14
+  [SEARCH]: node spawn "fc -ln" command
+2016-03-23T07:50:22
+  [SEARCH]: fc command
+2016-03-23T07:59:26
+  [SEARCH]: node stream events
+2016-03-23T08:08:00
+  [SEARCH]: node exec vs spawn
+2016-03-23T08:59:34
+  After a very frustrating search, I gave up and sent a question to stackoverflow about bash history in node.js. Here's the link: http://stackoverflow.com/questions/36180205/execute-fc-ln-1-bash-history-in-node-js-spawn
+2016-03-23T09:00:28
+  [GOAL]: Be able to log last CLI command
+2016-03-23T09:02:04
+  [$]: git add --all
+2016-03-23T09:02:18
+  [$]: git commit -m 'WIP: Adding support for work start/stop'
+2016-03-23T09:02:37
+  ---- WORK STOP ----
 
