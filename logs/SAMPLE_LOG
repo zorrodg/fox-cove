@@ -207,4 +207,14 @@
   [$]: git commit -m 'WIP: Adding support for work start/stop'
 2016-03-23T09:02:37
   ---- WORK STOP ----
+2016-03-23T20:13:25
+  ---- WORK START ----
+2016-03-23T20:13:36
+  I will hardcode the history file locations, and hopefully work in all Mac envs. I'll make sure to make it extendable.
+2016-03-23T21:30:53
+  [$]: git add --all
+2016-03-23T21:31:45
+  [$]: git commit -m "WIP: Logging last CLI command. Missing tests"
+2016-03-21T10:17:33
+  ---- WORK STOP ----
 

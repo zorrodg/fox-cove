@@ -22,7 +22,12 @@
     "url": "https://github.com/zorrodg/fox-cove/issues"
   },
   "defaults": {
-    "logPath": "./logs/CURRENT"
+    "LOG_PATH": "./logs/CURRENT",
+    "SHELL_HISTORY_LOCATIONS": {
+      "bash": "/.bash_history",
+      "zsh": "/.zsh_history",
+      "fish": "/.config/fish/fish_history"
+    }
   },
   "homepage": "https://github.com/zorrodg/fox-cove#readme",
   "dependencies": {
