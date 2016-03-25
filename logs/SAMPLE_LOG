@@ -215,6 +215,46 @@
   [$]: git add --all
 2016-03-23T21:31:45
   [$]: git commit -m "WIP: Logging last CLI command. Missing tests"
-2016-03-21T10:17:33
+2016-03-23T21:31:45
   ---- WORK STOP ----
+2016-03-25T06:48:44
+  ---- WORK START ----
+2016-03-25T06:49:06
+  [GOAL]: Complete tests for -s option
+2016-03-25T07:00:14
+  Today I also have the time until Anna wakes up. Which means short.
+2016-03-25T07:03:12
+  Ugh! Testing the -s command is as problematic as creating the command.
+2016-03-25T07:08:45
+  [IDEA]: Change log path for test cases
+2016-03-25T07:11:11
+  [GOAL]: Allow user to define current log path
+2016-03-25T07:21:11
+  [SEARCH]: Object.assign polyfill
+2016-03-25T07:21:11
+  [SEARCH]: mocha before async
+2016-03-25T08:10:41
+  Config file is behaving pretty sweet!
+2016-03-25T08:51:10
+  Awesome config file. Now let's test it.
+2016-03-25T09:05:36
+  Tests completed for config file. User now can add/remove properties to a config file. Reading goals again...
+2016-03-25T09:09:19
+  [GOAL]: Sub goals logic
+2016-03-25T09:58:53
+  ---- COFFEE BREAK ----
+2016-03-25T12:35:31
+  That coffee break took longer than expected. Anna woke up.
+2016-03-25T12:51:05
+  [GOAL]: Be able to mark subgoals as finished. Goals don't need to be marked as finished. Just overwritten with new goals.
+2016-03-25T12:51:22
+  Need to write tests for sub goals behavior
+2016-03-25T13:20:59
+  Mark goals as done, done. Testing them now.
+2016-03-25T13:36:05
+  Tests partially done. Will complete tomorrow...
+2016-03-25T13:36:22
+  [$]: git add --all
+2016-03-25T13:36:33
+  [$]: git commit -m "WIP: Several improvements"
 
