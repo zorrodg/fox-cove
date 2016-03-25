@@ -11,7 +11,7 @@ describe('Shell option', function () {
 
     // This can't be tested in the main process.
     // This workaround is fragile as hell
-    runProcess('fxc', ['-s'])
+    runProcess('fxc', ['--shell'])
       .then(function (output) {
         assert.equal(output, 'Logged: \'[$]: npm test\'\n');
       })
@@ -19,7 +19,7 @@ describe('Shell option', function () {
   });
 
   it('Should log and execute given command', function(done) {
-    runProcess('fxc', ['-s', 'whoami'])
+    runProcess('fxc', ['-c', 'whoami'])
       .then(function (output) {
         output = output.split('\n\n');
         assert.equal(output[0], process.env.USER);

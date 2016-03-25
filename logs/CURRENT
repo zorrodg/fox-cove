@@ -82,3 +82,39 @@
   [GOAL]: Testing in node 0.10
 2016-03-25T13:35:10-05:00
   [GOAL]: Test Goal
+2016-03-25T15:57:02-05:00
+  [SEARCH]: test
+2016-03-25T15:57:21-05:00
+  [SEARCH]: How to get away with murder
+2016-03-25T15:59:03-05:00
+  [SEARCH]: to get away with murder How
+2016-03-25T16:03:13-05:00
+  [SEARCH]: How to get away with murder
+2016-03-25T16:03:39-05:00
+  [$]: ls
+2016-03-25T16:03:45-05:00
+  [$]: ls -la
+2016-03-25T16:03:54-05:00
+  [$]: git status
+2016-03-25T16:17:29-05:00
+  [SEARCH]: test
+2016-03-25T16:17:45-05:00
+  [SEARCH]: speedtest.net
+2016-03-25T16:18:14-05:00
+  log This is my first
+2016-03-25T16:20:05-05:00
+  This is my first log
+2016-03-25T16:20:18-05:00
+  [SEARCH]: world Hello
+2016-03-25T16:20:35-05:00
+  This is my first log
+2016-03-25T16:20:39-05:00
+  [SEARCH]: Hello world
+2016-03-25T16:26:54-05:00
+  [SEARCH]: Hello world
+2016-03-25T16:59:03-05:00
+  [SEARCH]: this is a default search
+2016-03-25T16:59:26-05:00
+  [SEARCH]: this is a default search
+2016-03-25T17:00:20-05:00
+  [SEARCH]: this is a default search

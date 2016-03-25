@@ -21,13 +21,20 @@
   "bugs": {
     "url": "https://github.com/zorrodg/fox-cove/issues"
   },
+  "CONFIG_PATH": "./config.json",
   "defaults": {
-    "CONFIG_PATH": "./config.json",
     "LOG_PATH": "./logs/CURRENT",
     "SHELL_HISTORY_LOCATIONS": {
       "bash": "/.bash_history",
       "zsh": "/.zsh_history",
       "fish": "/.config/fish/fish_history"
+    },
+    "SEARCH_ENGINE": "google",
+    "SEARCH_ENGINE_LIST": {
+      "google": "https://www.google.com.co/search?q=",
+      "bing": "http://www.bing.com/search?q=",
+      "yahoo": "https://search.yahoo.com/search?p=",
+      "yandex": "https://www.yandex.com/search/?text="
     }
   },
   "homepage": "https://github.com/zorrodg/fox-cove#readme",

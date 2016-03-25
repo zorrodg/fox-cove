@@ -257,4 +257,28 @@
   [$]: git add --all
 2016-03-25T13:36:33
   [$]: git commit -m "WIP: Several improvements"
-
+2016-03-25T14:32:15
+  ---- WORK STOP ----
+2016-03-25T14:31:58
+  ---- WORK START ----
+2016-03-25T14:32:40
+  Continue work on test cases for goals/subgoals
+2016-03-25T15:28:32
+  Done test cases for goal/subgoal
+2016-03-25T15:34:53
+  Trigger web search from console.
+2016-03-25T16:06:19
+  I'm not sure that search engine can be tested
+2016-03-25T16:43:00
+  I set a little trick to get the tests for search, but I found out that equal sign is needed.
+2016-03-25T17:01:31
+  Search option completed and tested. Looking into the first goals...
+2016-03-25T17:02:41
+  [GOAL]: Be able to log filtered by TODOs (assign ID to track them down)
+    [#1]: Be able to complete TODOs by ID
+2016-03-25T17:14:59
+  [$]: git add --all
+2016-03-25T17:15:13
+  [$]: git commit -m "WIP: Finished goals and search features"
+2016-03-25T17:15:43
+  ---- WORK STOP ----

@@ -6,13 +6,23 @@ var path = require('path');
 var Q = require('q');
 var readFile = Q.denodeify(require('fs').readFile);
 var splitInPairs = require('./../../lib/util/log-handle').splitInPairs;
+var CONFIG_PATH = require('./../../package.json').CONFIG_PATH;
+var config;
 
 describe('Coffee / Work options', function() {
+  beforeEach(function () {
+    config = config || require(path.resolve(CONFIG_PATH));
+  });
+
+  afterEach(function () {
+    config = undefined;
+  });
+
   it('should log coffee breaks', function (done) {
     runProcess('fxc', ['--coffee'])
       .then(function (output) {
         assert.equal(output, 'Logged: \'---- COFFEE BREAK ----\'\n');
-        return readFile(path.resolve('./logs/TEST'), 'utf-8');
+        return readFile(path.resolve(config.LOG_PATH), 'utf-8');
       })
       .then(function (data) {
         data = splitInPairs(data);
@@ -29,7 +39,7 @@ describe('Coffee / Work options', function() {
         verb = verb && verb[1];
 
         assert.ok(verb);
-        return runProcess('fxc', ['--work']);
+        return runProcess('fxc', ['-w']);
       })
       .then(function (output) {
         var otherVerb = /---- WORK ([A-Z]{4,5}) ----/.exec(output);
@@ -37,7 +47,7 @@ describe('Coffee / Work options', function() {
 
         assert.ok(otherVerb);
         assert.ok(verb !== otherVerb);
-        return readFile(path.resolve('./logs/TEST'), 'utf-8');
+        return readFile(path.resolve(config.LOG_PATH), 'utf-8');
       })
       .then(function (data) {
         var result = [];
