@@ -15,7 +15,7 @@ describe('Entry command', function () {
   it('should log a message', function (done) {
     runProcess('fxc', ['This is a new message'])
       .then(function (output) {
-        assert(new RegExp('Logged: \'This is a new message\'\n').test(output));
+        assert.equal('Logged: \'This is a new message\'', output.trim());
       })
       .done(done);
   });

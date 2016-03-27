@@ -974,3 +974,559 @@
   open http://mysearchengine.com?search=test
 2016-03-25T17:01:09-05:00
   open http://mysearchengine.com?search=multi+word+test
+2016-03-27T07:08:44-05:00
+  This is a new message
+2016-03-27T07:08:44-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T07:08:45-05:00
+  ---- WORK STOP ----
+2016-03-27T07:08:45-05:00
+  ---- WORK START ----
+2016-03-27T07:08:45-05:00
+  [$]: npm test
+2016-03-27T07:08:45-05:00
+  [$]: whoami
+2016-03-27T07:08:45-05:00
+  [GOAL]: Test goal
+    [#1]: -- DONE -- Test subgoal
+2016-03-27T07:08:46-05:00
+  [GOAL]: Test goal
+    [#1]: Test subgoal
+2016-03-27T07:08:46-05:00
+  [GOAL]: Test goal
+2016-03-27T07:08:46-05:00
+  open https://www.google.com.co/search?q=test
+2016-03-27T07:08:47-05:00
+  open http://www.bing.com/search?q=test
+2016-03-27T07:08:47-05:00
+  open http://mysearchengine.com?search=test
+2016-03-27T07:08:47-05:00
+  open http://mysearchengine.com?search=multi+word+test
+2016-03-27T07:13:15-05:00
+  This is a new message
+2016-03-27T07:13:15-05:00
+  [$]: npm test
+2016-03-27T07:13:15-05:00
+  [$]: whoami
+2016-03-27T07:13:15-05:00
+  open https://www.google.com.co/search?q=test
+2016-03-27T07:13:16-05:00
+  open http://www.bing.com/search?q=test
+2016-03-27T07:13:16-05:00
+  open http://mysearchengine.com?search=test
+2016-03-27T07:13:16-05:00
+  open http://mysearchengine.com?search=multi+word+test
+2016-03-27T07:14:06-05:00
+  This is a new message
+2016-03-27T07:14:07-05:00
+  [$]: npm test
+2016-03-27T07:14:07-05:00
+  [$]: whoami
+2016-03-27T07:14:07-05:00
+  open https://www.google.com.co/search?q=test
+2016-03-27T07:14:07-05:00
+  open http://www.bing.com/search?q=test
+2016-03-27T07:14:07-05:00
+  open http://mysearchengine.com?search=test
+2016-03-27T07:14:08-05:00
+  open http://mysearchengine.com?search=multi+word+test
+2016-03-27T07:14:52-05:00
+  This is a new message
+2016-03-27T07:14:53-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T07:14:53-05:00
+  ---- WORK STOP ----
+2016-03-27T07:14:53-05:00
+  ---- WORK START ----
+2016-03-27T07:14:53-05:00
+  [$]: npm test
+2016-03-27T07:14:54-05:00
+  [$]: whoami
+2016-03-27T07:14:54-05:00
+  [GOAL]: Test goal
+    [#1]: -- DONE -- Test subgoal
+2016-03-27T07:14:54-05:00
+  [GOAL]: Test goal
+    [#1]: Test subgoal
+2016-03-27T07:14:55-05:00
+  [GOAL]: Test goal
+2016-03-27T07:14:55-05:00
+  open https://www.google.com.co/search?q=test
+2016-03-27T07:14:55-05:00
+  open http://www.bing.com/search?q=test
+2016-03-27T07:14:56-05:00
+  open http://mysearchengine.com?search=test
+2016-03-27T07:14:56-05:00
+  open http://mysearchengine.com?search=multi+word+test
+2016-03-27T07:18:57-05:00
+  This is a new message
+2016-03-27T07:18:57-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T07:18:57-05:00
+  ---- WORK STOP ----
+2016-03-27T07:18:58-05:00
+  ---- WORK START ----
+2016-03-27T07:18:58-05:00
+  [$]: npm test
+2016-03-27T07:18:58-05:00
+  [$]: whoami
+2016-03-27T07:18:58-05:00
+  [GOAL]: Test goal
+    [#1]: -- DONE -- Test subgoal
+2016-03-27T07:18:59-05:00
+  [GOAL]: Test goal
+    [#1]: Test subgoal
+2016-03-27T07:18:59-05:00
+  [GOAL]: Test goal
+2016-03-27T07:18:59-05:00
+  open https://www.google.com.co/search?q=test
+2016-03-27T07:19:00-05:00
+  open http://www.bing.com/search?q=test
+2016-03-27T07:19:00-05:00
+  open http://mysearchengine.com?search=test
+2016-03-27T07:19:00-05:00
+  open http://mysearchengine.com?search=multi+word+test
+2016-03-27T07:35:19-05:00
+  This is a new message
+2016-03-27T07:35:20-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T07:35:20-05:00
+  ---- WORK STOP ----
+2016-03-27T07:35:20-05:00
+  ---- WORK START ----
+2016-03-27T07:35:21-05:00
+  [$]: npm test
+2016-03-27T07:35:21-05:00
+  [$]: whoami
+2016-03-27T07:35:21-05:00
+  [GOAL]: Test goal
+    [#1]: -- DONE -- Test subgoal
+2016-03-27T07:35:22-05:00
+  [GOAL]: Test goal
+    [#1]: Test subgoal
+2016-03-27T07:35:22-05:00
+  [GOAL]: Test goal
+2016-03-27T07:35:22-05:00
+  open https://www.google.com.co/search?q=test
+2016-03-27T07:35:22-05:00
+  open http://www.bing.com/search?q=test
+2016-03-27T07:35:23-05:00
+  open http://mysearchengine.com?search=test
+2016-03-27T07:35:23-05:00
+  open http://mysearchengine.com?search=multi+word+test
+2016-03-27T07:35:23-05:00
+  [TODO #1]: Test TODO
+2016-03-27T07:37:58-05:00
+  This is a new message
+2016-03-27T07:37:58-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T07:37:58-05:00
+  ---- WORK STOP ----
+2016-03-27T07:37:59-05:00
+  ---- WORK START ----
+2016-03-27T07:37:59-05:00
+  [$]: npm test
+2016-03-27T07:37:59-05:00
+  [$]: whoami
+2016-03-27T07:37:59-05:00
+  [GOAL]: Test goal
+    [#1]: -- DONE -- Test subgoal
+2016-03-27T07:38:00-05:00
+  [GOAL]: Test goal
+    [#1]: Test subgoal
+2016-03-27T07:38:00-05:00
+  [GOAL]: Test goal
+2016-03-27T07:38:00-05:00
+  open https://www.google.com.co/search?q=test
+2016-03-27T07:38:01-05:00
+  open http://www.bing.com/search?q=test
+2016-03-27T07:38:01-05:00
+  open http://mysearchengine.com?search=test
+2016-03-27T07:38:01-05:00
+  open http://mysearchengine.com?search=multi+word+test
+2016-03-27T07:38:01-05:00
+  [TODO #2]: Test TODO
+2016-03-27T07:38:11-05:00
+  This is a new message
+2016-03-27T07:38:12-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T07:38:12-05:00
+  ---- WORK STOP ----
+2016-03-27T07:38:12-05:00
+  ---- WORK START ----
+2016-03-27T07:38:12-05:00
+  [$]: npm test
+2016-03-27T07:38:12-05:00
+  [$]: whoami
+2016-03-27T07:38:12-05:00
+  [GOAL]: Test goal
+    [#1]: -- DONE -- Test subgoal
+2016-03-27T07:38:13-05:00
+  [GOAL]: Test goal
+    [#1]: Test subgoal
+2016-03-27T07:38:13-05:00
+  [GOAL]: Test goal
+2016-03-27T07:38:14-05:00
+  open https://www.google.com.co/search?q=test
+2016-03-27T07:38:14-05:00
+  open http://www.bing.com/search?q=test
+2016-03-27T07:38:14-05:00
+  open http://mysearchengine.com?search=test
+2016-03-27T07:38:14-05:00
+  open http://mysearchengine.com?search=multi+word+test
+2016-03-27T07:38:15-05:00
+  [TODO #3]: Test TODO
+2016-03-27T07:39:20-05:00
+  This is a new message
+2016-03-27T07:39:20-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T07:39:21-05:00
+  ---- WORK STOP ----
+2016-03-27T07:39:21-05:00
+  ---- WORK START ----
+2016-03-27T07:39:21-05:00
+  [$]: npm test
+2016-03-27T07:39:21-05:00
+  [$]: whoami
+2016-03-27T07:39:21-05:00
+  [GOAL]: Test goal
+    [#1]: -- DONE -- Test subgoal
+2016-03-27T07:39:22-05:00
+  [GOAL]: Test goal
+    [#1]: Test subgoal
+2016-03-27T07:39:22-05:00
+  [GOAL]: Test goal
+2016-03-27T07:39:23-05:00
+  open https://www.google.com.co/search?q=test
+2016-03-27T07:39:23-05:00
+  open http://www.bing.com/search?q=test
+2016-03-27T07:39:23-05:00
+  open http://mysearchengine.com?search=test
+2016-03-27T07:39:23-05:00
+  open http://mysearchengine.com?search=multi+word+test
+2016-03-27T07:39:23-05:00
+  [TODO #4]: Test TODO
+2016-03-27T07:44:12-05:00
+  This is a new message
+2016-03-27T07:44:13-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T07:44:13-05:00
+  ---- WORK STOP ----
+2016-03-27T07:44:13-05:00
+  ---- WORK START ----
+2016-03-27T07:44:13-05:00
+  [$]: npm test
+2016-03-27T07:44:14-05:00
+  [$]: whoami
+2016-03-27T07:44:14-05:00
+  [GOAL]: Test goal
+    [#1]: -- DONE -- Test subgoal
+2016-03-27T07:44:14-05:00
+  [GOAL]: Test goal
+    [#1]: Test subgoal
+2016-03-27T07:44:15-05:00
+  [GOAL]: Test goal
+2016-03-27T07:44:15-05:00
+  open https://www.google.com.co/search?q=test
+2016-03-27T07:44:15-05:00
+  open http://www.bing.com/search?q=test
+2016-03-27T07:44:16-05:00
+  open http://mysearchengine.com?search=test
+2016-03-27T07:44:16-05:00
+  open http://mysearchengine.com?search=multi+word+test
+2016-03-27T07:44:16-05:00
+  [TODO #5]: Test TODO
+2016-03-27T07:44:16-05:00
+  [TODO #6]: Test TODO
+2016-03-27T07:44:16-05:00
+  [TODO #7]: Test TODO
+2016-03-27T07:59:25-05:00
+  This is a new message
+2016-03-27T07:59:25-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T07:59:25-05:00
+  ---- WORK STOP ----
+2016-03-27T07:59:26-05:00
+  ---- WORK START ----
+2016-03-27T07:59:26-05:00
+  [$]: npm test
+2016-03-27T07:59:26-05:00
+  [$]: whoami
+2016-03-27T07:59:26-05:00
+  [GOAL]: Test goal
+    [#1]: -- DONE -- Test subgoal
+2016-03-27T07:59:27-05:00
+  [GOAL]: Test goal
+    [#1]: Test subgoal
+2016-03-27T07:59:27-05:00
+  [GOAL]: Test goal
+2016-03-27T07:59:27-05:00
+  open https://www.google.com.co/search?q=test
+2016-03-27T07:59:28-05:00
+  open http://www.bing.com/search?q=test
+2016-03-27T07:59:28-05:00
+  open http://mysearchengine.com?search=test
+2016-03-27T07:59:28-05:00
+  open http://mysearchengine.com?search=multi+word+test
+2016-03-27T07:59:28-05:00
+  [TODO #8]: Test TODO
+2016-03-27T07:59:28-05:00
+  [TODO #9]: Test TODO
+2016-03-27T07:59:29-05:00
+  [TODO #10]: Test TODO mark done
+2016-03-27T08:01:44-05:00
+  This is a new message
+2016-03-27T08:01:45-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T08:01:45-05:00
+  ---- WORK STOP ----
+2016-03-27T08:01:45-05:00
+  ---- WORK START ----
+2016-03-27T08:01:45-05:00
+  [$]: npm test
+2016-03-27T08:01:45-05:00
+  [$]: whoami
+2016-03-27T08:01:46-05:00
+  [GOAL]: Test goal
+    [#1]: -- DONE -- Test subgoal
+2016-03-27T08:01:46-05:00
+  [GOAL]: Test goal
+    [#1]: Test subgoal
+2016-03-27T08:01:47-05:00
+  [GOAL]: Test goal
+2016-03-27T08:01:47-05:00
+  open https://www.google.com.co/search?q=test
+2016-03-27T08:01:47-05:00
+  open http://www.bing.com/search?q=test
+2016-03-27T08:01:47-05:00
+  open http://mysearchengine.com?search=test
+2016-03-27T08:01:48-05:00
+  open http://mysearchengine.com?search=multi+word+test
+2016-03-27T08:01:48-05:00
+  [TODO #11]: Test TODO
+2016-03-27T08:01:48-05:00
+  [TODO #12]: Test TODO
+2016-03-27T08:01:48-05:00
+  [TODO #13]: Test TODO
+2016-03-27T08:01:48-05:00
+  [TODO #14]: Test TODO mark done
+2016-03-27T08:09:17-05:00
+  This is a new message
+2016-03-27T08:09:17-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T08:09:18-05:00
+  ---- WORK STOP ----
+2016-03-27T08:09:18-05:00
+  ---- WORK START ----
+2016-03-27T08:09:18-05:00
+  [$]: npm test
+2016-03-27T08:09:18-05:00
+  [$]: whoami
+2016-03-27T08:09:18-05:00
+  [GOAL]: Test goal
+    [#1]: -- DONE -- Test subgoal
+2016-03-27T08:09:19-05:00
+  [GOAL]: Test goal
+    [#1]: Test subgoal
+2016-03-27T08:09:19-05:00
+  [GOAL]: Test goal
+2016-03-27T08:09:20-05:00
+  open https://www.google.com.co/search?q=test
+2016-03-27T08:09:20-05:00
+  open http://www.bing.com/search?q=test
+2016-03-27T08:09:20-05:00
+  open http://mysearchengine.com?search=test
+2016-03-27T08:09:20-05:00
+  open http://mysearchengine.com?search=multi+word+test
+2016-03-27T08:09:20-05:00
+  [TODO #15]: Test TODO
+2016-03-27T08:09:21-05:00
+  [TODO #16]: Test TODO
+2016-03-27T08:09:21-05:00
+  [TODO #17]: Test TODO
+2016-03-27T08:09:21-05:00
+  [TODO #18]: -- DONE -- Test TODO mark done
+2016-03-27T08:12:14-05:00
+  This is a new message
+2016-03-27T08:12:15-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T08:12:15-05:00
+  ---- WORK STOP ----
+2016-03-27T08:12:15-05:00
+  ---- WORK START ----
+2016-03-27T08:12:15-05:00
+  [$]: npm test
+2016-03-27T08:12:15-05:00
+  [$]: whoami
+2016-03-27T08:12:15-05:00
+  [GOAL]: Test goal
+    [#1]: -- DONE -- Test subgoal
+2016-03-27T08:12:16-05:00
+  [GOAL]: Test goal
+    [#1]: Test subgoal
+2016-03-27T08:12:16-05:00
+  [GOAL]: Test goal
+2016-03-27T08:12:17-05:00
+  open https://www.google.com.co/search?q=test
+2016-03-27T08:12:17-05:00
+  open http://www.bing.com/search?q=test
+2016-03-27T08:12:17-05:00
+  open http://mysearchengine.com?search=test
+2016-03-27T08:12:17-05:00
+  open http://mysearchengine.com?search=multi+word+test
+2016-03-27T08:12:18-05:00
+  [TODO #19]: Test TODO
+2016-03-27T08:12:18-05:00
+  [TODO #20]: Test TODO
+2016-03-27T08:12:18-05:00
+  [TODO #21]: Test TODO
+2016-03-27T08:12:18-05:00
+  [TODO #22]: -- DONE -- Test TODO mark done
+2016-03-27T08:34:31-05:00
+  This is a new message
+2016-03-27T08:34:32-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T08:34:32-05:00
+  ---- WORK STOP ----
+2016-03-27T08:34:32-05:00
+  ---- WORK START ----
+2016-03-27T08:34:33-05:00
+  [$]: npm test
+2016-03-27T08:34:33-05:00
+  [$]: whoami
+2016-03-27T08:34:33-05:00
+  [GOAL]: Test goal
+    [#1]: -- DONE -- Test subgoal
+2016-03-27T08:34:34-05:00
+  [GOAL]: Test goal
+    [#1]: Test subgoal
+2016-03-27T08:34:34-05:00
+  [GOAL]: Test goal
+2016-03-27T08:34:34-05:00
+  open https://www.google.com.co/search?q=test
+2016-03-27T08:34:34-05:00
+  open http://www.bing.com/search?q=test
+2016-03-27T08:34:35-05:00
+  open http://mysearchengine.com?search=test
+2016-03-27T08:34:35-05:00
+  open http://mysearchengine.com?search=multi+word+test
+2016-03-27T08:34:35-05:00
+  [TODO #23]: Test TODO
+2016-03-27T08:34:35-05:00
+  [TODO #24]: Test TODO
+2016-03-27T08:34:35-05:00
+  [TODO #25]: Test TODO
+2016-03-27T08:34:36-05:00
+  [TODO #26]: Test TODO mark done
+2016-03-27T08:43:03-05:00
+  This is a new message
+2016-03-27T08:43:04-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T08:43:04-05:00
+  ---- WORK STOP ----
+2016-03-27T08:43:04-05:00
+  ---- WORK START ----
+2016-03-27T08:43:04-05:00
+  [$]: npm test
+2016-03-27T08:43:05-05:00
+  [$]: whoami
+2016-03-27T08:43:05-05:00
+  [GOAL]: Test goal
+    [#1]: -- DONE -- Test subgoal
+2016-03-27T08:43:05-05:00
+  [GOAL]: Test goal
+    [#1]: Test subgoal
+2016-03-27T08:43:06-05:00
+  [GOAL]: Test goal
+2016-03-27T08:43:06-05:00
+  open https://www.google.com.co/search?q=test
+2016-03-27T08:43:06-05:00
+  open http://www.bing.com/search?q=test
+2016-03-27T08:43:07-05:00
+  open http://mysearchengine.com?search=test
+2016-03-27T08:43:07-05:00
+  open http://mysearchengine.com?search=multi+word+test
+2016-03-27T08:43:07-05:00
+  [TODO #27]: Test TODO
+2016-03-27T08:43:07-05:00
+  [TODO #28]: Test TODO
+2016-03-27T08:43:07-05:00
+  [TODO #29]: Test TODO
+2016-03-27T08:43:07-05:00
+  [TODO #30]: -- DONE -- Test TODO mark done
+2016-03-27T08:48:59-05:00
+  This is a new message
+2016-03-27T08:49:00-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T08:49:00-05:00
+  ---- WORK STOP ----
+2016-03-27T08:49:00-05:00
+  ---- WORK START ----
+2016-03-27T08:49:01-05:00
+  [$]: npm test
+2016-03-27T08:49:01-05:00
+  [$]: whoami
+2016-03-27T08:49:01-05:00
+  [GOAL]: Test goal
+    [#1]: -- DONE -- Test subgoal
+2016-03-27T08:49:02-05:00
+  [GOAL]: Test goal
+    [#1]: Test subgoal
+2016-03-27T08:49:02-05:00
+  [GOAL]: Test goal
+2016-03-27T08:49:02-05:00
+  open https://www.google.com.co/search?q=test
+2016-03-27T08:49:02-05:00
+  open http://www.bing.com/search?q=test
+2016-03-27T08:49:03-05:00
+  open http://mysearchengine.com?search=test
+2016-03-27T08:49:03-05:00
+  open http://mysearchengine.com?search=multi+word+test
+2016-03-27T08:49:03-05:00
+  [TODO #31]: Test TODO
+2016-03-27T08:49:03-05:00
+  [TODO #32]: Test TODO
+2016-03-27T08:49:03-05:00
+  [TODO #33]: Test TODO
+2016-03-27T08:49:04-05:00
+  [TODO #34]: -- DONE -- Test TODO mark done
+2016-03-27T08:49:04-05:00
+  [IDEA]: Test
+2016-03-27T08:57:11-05:00
+  This is a new message
+2016-03-27T08:57:12-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T08:57:12-05:00
+  ---- WORK STOP ----
+2016-03-27T08:57:12-05:00
+  ---- WORK START ----
+2016-03-27T08:57:12-05:00
+  [$]: npm test
+2016-03-27T08:57:13-05:00
+  [$]: whoami
+2016-03-27T08:57:13-05:00
+  [GOAL]: Test goal
+    [#1]: -- DONE -- Test subgoal
+2016-03-27T08:57:13-05:00
+  [GOAL]: Test goal
+    [#1]: Test subgoal
+2016-03-27T08:57:14-05:00
+  [GOAL]: Test goal
+2016-03-27T08:57:14-05:00
+  open https://www.google.com.co/search?q=test
+2016-03-27T08:57:14-05:00
+  open http://www.bing.com/search?q=test
+2016-03-27T08:57:15-05:00
+  open http://mysearchengine.com?search=test
+2016-03-27T08:57:15-05:00
+  open http://mysearchengine.com?search=multi+word+test
+2016-03-27T08:57:15-05:00
+  [TODO #35]: Test TODO
+2016-03-27T08:57:15-05:00
+  [TODO #36]: Test TODO
+2016-03-27T08:57:15-05:00
+  [TODO #37]: Test TODO
+2016-03-27T08:57:16-05:00
+  [TODO #38]: -- DONE -- Test TODO mark done
+2016-03-27T08:57:16-05:00
+  [IDEA]: Test

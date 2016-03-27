@@ -282,3 +282,37 @@
   [$]: git commit -m "WIP: Finished goals and search features"
 2016-03-25T17:15:43
   ---- WORK STOP ----
+2016-03-27T06:59:32
+  ---- WORK START ----
+2016-03-27T06:59:48
+  Goal remains the same.
+2016-03-27T07:00:13
+  [IDEA]: Need to pass the "split in pair" function to match the formatting. If there are going to be multiple formattings, it doesn't make sense to have only one.
+2016-03-27T08:13:44
+  TODO option complete with tests
+2016-03-27T08:13:51
+  ---- COFFEE BREAK ----
+2016-03-27T08:33:50
+  I wasn't in coffee break, since I was purging a bug. Coffee break starts now!
+2016-03-27T08:34:20
+  ---- COFFEE BREAK ----
+2016-03-27T08:44:15
+  Anna woke up! Better wrap this up.
+2016-03-27T08:45:47
+  [GOAL]: Finish the log command
+    [#1]: Be able to edit the last log entry (that is not a Coffee Break) Should be called something like "amend"
+    [#2]: Be able to log ideas
+2016-03-27T08:46:24
+  Working on ideas func now. It's simpler.
+2016-03-27T08:49:32
+  Done the test case for Ideas. It was ready all this time. Now for the amend option...
+2016-03-27T08:53:17
+  Hmmm, not sure if letting the user amend goals, subgoals, todos, etc. Need to think about that use case.
+2016-03-27T08:55:25
+  Seems like my time is up. Until next time!
+2016-03-27T08:59:25
+  [GOAL]: Think about 'amend' feature
+2016-03-27T08:59:47
+  [$]: git add --all
+2016-03-27T09:00:01
+  [$]: git commit -m "Completed all log options"

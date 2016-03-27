@@ -118,3 +118,103 @@
   [SEARCH]: this is a default search
 2016-03-25T17:00:20-05:00
   [SEARCH]: this is a default search
+2016-03-27T07:30:03-05:00
+      [#1]: test TODO
+2016-03-27T07:30:06-05:00
+      [#1]: test TODO
+2016-03-27T07:30:08-05:00
+      [#1]: test TODO
+2016-03-27T07:30:47-05:00
+  [TODO #1]: test TODO
+2016-03-27T07:30:49-05:00
+  [TODO #1]: test TODO
+2016-03-27T07:31:24-05:00
+  [TODO #[TODO #1],1]: test TODO
+2016-03-27T07:31:29-05:00
+  [TODO #[TODO #1],1]: test TODO
+2016-03-27T07:32:43-05:00
+  [TODO #1]: test TODO
+2016-03-27T07:32:45-05:00
+  [TODO #1]: test TODO
+2016-03-27T07:32:55-05:00
+  [TODO #1]: test TODO
+2016-03-27T07:32:56-05:00
+  [TODO #1]: -- DONE -- test TODO
+2016-03-27T07:33:44-05:00
+  [TODO #2]: -- DONE -- test TODO
+
+2016-03-27T07:33:46-05:00
+  [TODO #3]: -- DONE -- test TODO
+
+2016-03-27T07:33:47-05:00
+  [TODO #4]: -- DONE -- test TODO
+
+2016-03-27T07:33:48-05:00
+  [TODO #5]: -- DONE -- test TODO
+
+2016-03-27T07:34:09-05:00
+  [TODO #6]: -- DONE -- test TODO
+2016-03-27T08:13:44-05:00
+  TODO option complete with tests
+2016-03-27T08:13:51-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T08:16:56-05:00
+  [GOAL]: Test
+2016-03-27T08:17:30-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T08:17:33-05:00
+  [GOAL]: Test
+    [#1]: -- DONE -- Test
+    [#2]: -- DONE -- Test 123
+    [#3]: -- DONE -- Test 123
+    [#4]: -- DONE -- Test 123
+    [#5]: -- DONE -- Test 123
+    [#6]: -- DONE -- Test 123
+    [#7]: -- DONE -- Test 123
+    [#8]: Test 123
+    [#9]: Test 123
+    [#10]: -- DONE -- Test 123
+    [#11]: -- DONE -- Test 123
+2016-03-27T08:19:48-05:00
+  [TODO #7]: -- DONE -- hello world
+2016-03-27T08:20:14-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T08:20:25-05:00
+  [TODO #null]: hello world
+2016-03-27T08:20:50-05:00
+  [TODO #8]: -- DONE -- hello world
+2016-03-27T08:21:10-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T08:22:18-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T08:22:24-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T08:22:27-05:00
+  [TODO #9]: hello world
+2016-03-27T08:22:29-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T08:22:37-05:00
+  [TODO #10]: -- DONE -- hello world
+2016-03-27T08:22:49-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T08:23:18-05:00
+  [TODO #11]: -- DONE -- hello world
+2016-03-27T08:23:23-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T08:30:30-05:00
+  [TODO #12]: test TODO
+2016-03-27T08:31:15-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T08:31:28-05:00
+  [TODO #13]: test TODO
+2016-03-27T08:31:38-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T08:32:32-05:00
+  [TODO #14]: test TODO
+2016-03-27T08:32:35-05:00
+  ---- COFFEE BREAK ----
+2016-03-27T08:32:55-05:00
+  [GOAL]: new Goal
+    [#1]: -- DONE -- new SubGoal
+2016-03-27T08:33:31-05:00
+  ---- COFFEE BREAK ----

@@ -29,6 +29,7 @@
       "zsh": "/.zsh_history",
       "fish": "/.config/fish/fish_history"
     },
+    "FORMAT": "default",
     "SEARCH_ENGINE": "google",
     "SEARCH_ENGINE_LIST": {
       "google": "https://www.google.com.co/search?q=",

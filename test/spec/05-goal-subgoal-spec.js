@@ -5,13 +5,13 @@ var runProcess = require('./../../lib/util/run-process').runProcess;
 var path = require('path');
 var Q = require('q');
 var readFile = Q.denodeify(require('fs').readFile);
-var splitInPairs = require('./../../lib/util/log-handle').splitInPairs;
 var CONFIG_PATH = require('./../../package.json').CONFIG_PATH;
-var config;
+var splitInPairs, config;
 
-describe('Goal / Subgoal option', function () {
+describe('Goal / Subgoal options', function () {
   beforeEach(function () {
     config = config || require(path.resolve(CONFIG_PATH));
+    splitInPairs = require('./../../lib/util/formats/' + config.FORMAT).splitInPairs;
   });
 
   afterEach(function () {
