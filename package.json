@@ -36,7 +36,8 @@
       "bing": "http://www.bing.com/search?q=",
       "yahoo": "https://search.yahoo.com/search?p=",
       "yandex": "https://www.yandex.com/search/?text="
-    }
+    },
+    "PAGE_LENGTH": 10
   },
   "homepage": "https://github.com/zorrodg/fox-cove#readme",
   "dependencies": {

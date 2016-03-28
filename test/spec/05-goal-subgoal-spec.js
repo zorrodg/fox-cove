@@ -60,7 +60,7 @@ describe('Goal / Subgoal options', function () {
   it('should\'t list again the subgoal marked as done', function (done) {
     runProcess('fxc', ['-f', '1'])
       .then(function (output) {
-        assert.equal(output, 'Subgoal ID not found. Check your goals with `fxc view -G` command\n');
+        assert.equal(output, 'Subgoal ID not found. Check your goals with `fxc ls -G` command\n');
       })
       .done(done);
   });
@@ -80,7 +80,7 @@ describe('Goal / Subgoal options', function () {
         return runProcess('fxc', ['-f', '1']);
       })
       .then(function (output) {
-        assert.equal(output, 'Subgoal ID not found. Check your goals with `fxc view -G` command\n');
+        assert.equal(output, 'Subgoal ID not found. Check your goals with `fxc ls -G` command\n');
       })
       .done(done);
   });

@@ -59,7 +59,7 @@ describe('TODO option', function () {
         return runProcess('fxc', ['--done-todo', consecutive]);
       })
       .then(function (output) {
-        assert.equal(output, 'TODO not found. To list all TODOS, use `fxc view -t` command\n');
+        assert.equal(output, 'TODO not found. To list all TODOS, use `fxc ls -t` command\n');
       })
       .done(done);
   });

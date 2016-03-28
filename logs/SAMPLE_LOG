@@ -1,8 +1,8 @@
-2016-03-21T06:13:45
+2016-03-21T06:13:45-05:00
   Starting worklog project. Codename: FOX-COVE
-2016-03-21T06:14:18
+2016-03-21T06:14:18-05:00
   [GOAL]: Set something real quick before Anna wakes up.
-2016-03-21T06:14:55
+2016-03-21T06:14:55-05:00
   [GOAL]: Be able to make a log like this using a CLI
     [#1]: Keep track of all logs from all time
     [#2]: Be able to indent sub goals to the current goal
@@ -15,99 +15,99 @@
     [#9]: Be able to log searches
     [#10]: Be able to log filtered by TODOs (assign ID to track them down)
     [#11]: Be able to complete TODOs by ID
-2016-03-21T06:19:16
+2016-03-21T06:19:16-05:00
   ---- COFFEE BREAK ----
-2016-03-21T06:21:48
+2016-03-21T06:21:48-05:00
   Setting up github repo...
-2016-03-21T06:23:05
+2016-03-21T06:23:05-05:00
   git@github.com:zorrodg/fox-cove.git
-2016-03-21T06:23:11
+2016-03-21T06:23:11-05:00
   Cloning repo to local "fox-cove" folder
-2016-03-21T06:24:32
+2016-03-21T06:24:32-05:00
   [$]: g clone git@github.com:zorrodg/fox-cove.git
-2016-03-21T06:26:24
+2016-03-21T06:26:24-05:00
   Setting up npm package.json
-2016-03-21T06:26:41
+2016-03-21T06:26:41-05:00
   [$]: npm init
-2016-03-21T06:28:59
+2016-03-21T06:28:59-05:00
   Installing moment as a dependency
-2016-03-21T06:29:41
+2016-03-21T06:29:41-05:00
   [$]: npm i moment --save
-2016-03-21T06:30:09
+2016-03-21T06:30:09-05:00
   Defining folder structure
-2016-03-21T06:31:11
+2016-03-21T06:31:11-05:00
   [SEARCH]: npm bin
-2016-03-21T06:37:06
+2016-03-21T06:37:06-05:00
   I'll probably need shelljs and commander
-2016-03-21T06:38:42
+2016-03-21T06:38:42-05:00
   [$]: npm i --save commander shelljs
-2016-03-21T06:38:57
+2016-03-21T06:38:57-05:00
   [SEARCH]: Commander API
-2016-03-21T06:50:33
+2016-03-21T06:50:33-05:00
   [SEARCH]: File writing in node
-2016-03-21T06:53:58
+2016-03-21T06:53:58-05:00
   npm i --save denodeify
-2016-03-21T06:57:05
+2016-03-21T06:57:05-05:00
   [TODO #1]: Add a js linter
-2016-03-21T07:00:16
+2016-03-21T07:00:16-05:00
   [SEARCH]: node create file if not exists
-2016-03-21T07:01:51
+2016-03-21T07:01:51-05:00
   I'll probably need chalk too
-2016-03-21T07:02:27
+2016-03-21T07:02:27-05:00
   [$]: npm i --save chalk
-2016-03-21T07:05:05
+2016-03-21T07:05:05-05:00
   [IDEA]: When the file is big enough, rename it and create a new one
-2016-03-21T07:10:36
+2016-03-21T07:10:36-05:00
   [IDEA]: When google option, log term, then open a browser and google passed term
-2016-03-21T07:27:32
+2016-03-21T07:27:32-05:00
   [IDEA]: When command option, log command, then execute passed command
-2016-03-21T07:29:12
+2016-03-21T07:29:12-05:00
   ---- COFFEE BREAK ----
-2016-03-21T07:30:31
+2016-03-21T07:30:31-05:00
   Adding "logs" folder
-2016-03-21T07:42:09
+2016-03-21T07:42:09-05:00
   Found a problem in the goals API. I should be able to modify the list of subgoals. Otherwise, I'll have to track goals by ID, and that's not good
-2016-03-21T07:44:00
+2016-03-21T07:44:00-05:00
   [SEARCH]: Unit test node bin
-2016-03-21T07:53:43
+2016-03-21T07:53:43-05:00
   Trying out mocha for Unit Testing
-2016-03-21T07:53:55
+2016-03-21T07:53:55-05:00
   [$]: npm i --save-dev mocha
-2016-03-21T07:54:42
+2016-03-21T07:54:42-05:00
   Writing sample test
-2016-03-21T07:57:36
+2016-03-21T07:57:36-05:00
   Might need concat-stream for unit testing
-2016-03-21T07:57:48
+2016-03-21T07:57:48-05:00
   [$]: npm i --save-dev concat-stream
-2016-03-21T08:00:42
+2016-03-21T08:00:42-05:00
   [SEARCH]: Using mocha
-2016-03-21T08:10:03
+2016-03-21T08:10:03-05:00
   Adding Q as promise library and removing denodeify, for better legacy support
-2016-03-21T08:10:31
+2016-03-21T08:10:31-05:00
   [$]: npm un --save denodeify
-2016-03-21T08:11:06
+2016-03-21T08:11:06-05:00
   [$]: npm i --save q
-2016-03-21T08:16:19
+2016-03-21T08:16:19-05:00
   [SEARCH]: node q
-2016-03-21T08:18:34
+2016-03-21T08:18:34-05:00
   [SEARCH]: Mocha done function
-2016-03-21T08:25:43
+2016-03-21T08:25:43-05:00
   Probably a good idea to separate prefixes to an utils function
-2016-03-21T08:30:03
+2016-03-21T08:30:03-05:00
   [IDEA]: Allow the user to define it's own search engine
-2016-03-21T08:31:08
+2016-03-21T08:31:08-05:00
   ---- COFFEE BREAK ----
-2016-03-21T08:32:15
+2016-03-21T08:32:15-05:00
   Separating tests folder from test utils folder
-2016-03-21T08:35:06
+2016-03-21T08:35:06-05:00
   Adding README.md file
-2016-03-21T08:42:46
+2016-03-21T08:42:46-05:00
   [IDEA]: Allow user to dump logs and delete them when they're outdated
-2016-03-21T08:49:23
+2016-03-21T08:49:23-05:00
   [SEARCH]: commander sub options
-2016-03-21T09:01:11
+2016-03-21T09:01:11-05:00
   [IDEA]: Command to output current log file to allow user modifications
-2016-03-21T09:03:46
+2016-03-21T09:03:46-05:00
   [GOAL]: Be able to make a log like this using a CLI
     [#1]: Keep track of all logs from all time
     [#2]: Be able to indent sub goals to the current goal
@@ -115,261 +115,278 @@
     [#4]: Be able to edit the last log entry (that is not a Coffee Break)
     [#5]: Be able to log last CLI command
     [#6]: Be able to log searches
-2016-03-21T09:29:08
+2016-03-21T09:29:08-05:00
   ---- COFFEE BREAK ----
-2016-03-21T09:33:13
+2016-03-21T09:33:13-05:00
   Anna woke up. I've got until 10:00
-2016-03-21T09:33:32
+2016-03-21T09:33:32-05:00
   It's probably a good idea to commit all of these changes
-2016-03-21T09:33:58
+2016-03-21T09:33:58-05:00
   [$]: git add --all
-2016-03-21T09:34:15
+2016-03-21T09:34:15-05:00
   [$]: git commit -m 'Initial commit. WIP: Looking good!'
-2016-03-21T09:35:54
+2016-03-21T09:35:54-05:00
   Ugh, forgot to git ignore node_modules
-2016-03-21T09:37:54
+2016-03-21T09:37:54-05:00
   [$]: git rm node_modules -r
-2016-03-21T09:38:05
+2016-03-21T09:38:05-05:00
   [$]: npm i
-2016-03-21T09:38:19
+2016-03-21T09:38:19-05:00
   [$]: git status
-2016-03-21T09:38:43
+2016-03-21T09:38:43-05:00
   [$]: git add --all
-2016-03-21T09:39:11
+2016-03-21T09:39:11-05:00
   [$]: git commit -m "Removing node_modules"
-2016-03-21T09:39:59
+2016-03-21T09:39:59-05:00
   [$]: git add --all && git commit -m "Updating SAMPLE_LOG"
-2016-03-21T09:42:02
+2016-03-21T09:42:02-05:00
   Got 20 mins to make this work!
-2016-03-21T09:43:50
+2016-03-21T09:43:50-05:00
   Thought about an use case. What if an user sends more than one option?
-2016-03-21T10:06:23
+2016-03-21T10:06:23-05:00
   First successful attempt to log something
-2016-03-21T10:16:50
+2016-03-21T10:16:50-05:00
   Both tests passed! Pushing this to git
-2016-03-21T10:17:17
+2016-03-21T10:17:17-05:00
   [$]: git add --all
-2016-03-21T10:17:33
+2016-03-21T10:17:33-05:00
   [$]: git commit -m "WIP: Testing first log"
-2016-03-22T06:21:20
+2016-03-22T06:21:20-05:00
   ---- WORK START ----
-2016-03-22T06:17:49
+2016-03-22T06:17:49-05:00
   I've got 20 minutes. Setting up a quick goal
-2016-03-22T06:18:08
+2016-03-22T06:18:08-05:00
   [GOAL]: Be able to log last CLI command
     [#1]: When command option, log command, then execute passed command
     [#2]: Log start/stop (define a name)
-2016-03-22T06:29:57
+2016-03-22T06:29:57-05:00
   [SEARCH]: Q.resolve
-2016-03-22T06:41:17
+2016-03-22T06:41:17-05:00
   [SEARCH]: mocha settimeout per test
-2016-03-21T10:17:17
+2016-03-21T10:17:17-05:00
   [$]: git add --all
-2016-03-21T10:17:33
+2016-03-21T10:17:33-05:00
   [$]: git commit -m "WIP: Adding support for tests on coffee break"
-2016-03-21T10:17:33
+2016-03-21T10:17:33-05:00
   ---- WORK STOP ----
-2016-03-23T06:10:51
+2016-03-23T06:10:51-05:00
   ---- WORK START ----
-2016-03-23T06:23:38
+2016-03-23T06:23:38-05:00
   [SEARCH]: Array reduce
-2016-03-23T06:59:13
+2016-03-23T06:59:13-05:00
   Completed work / coffee features with tests
-2016-03-23T06:59:51
+2016-03-23T06:59:51-05:00
   [SEARCH]: output last send command
-2016-03-23T07:10:06
+2016-03-23T07:10:06-05:00
   [SEARCH]: shelljs
-2016-03-23T07:11:51
+2016-03-23T07:11:51-05:00
   Hmm, uninstalling shelljs
-2016-03-23T07:12:02
+2016-03-23T07:12:02-05:00
   [$]: npm un --save shelljs
-2016-03-23T07:12:57
+2016-03-23T07:12:57-05:00
   [IDEA]: Be able to mark subgoals as finished. Goals don't need to be marked as finished. Just overwritten with new goals.
-2016-03-23T07:24:26
+2016-03-23T07:24:26-05:00
   [SEARCH]: shell echo an error
-2016-03-23T07:28:41
+2016-03-23T07:28:41-05:00
   [SEARCH]: node spawn stream
-2016-03-23T07:50:14
+2016-03-23T07:50:14-05:00
   [SEARCH]: node spawn "fc -ln" command
-2016-03-23T07:50:22
+2016-03-23T07:50:22-05:00
   [SEARCH]: fc command
-2016-03-23T07:59:26
+2016-03-23T07:59:26-05:00
   [SEARCH]: node stream events
-2016-03-23T08:08:00
+2016-03-23T08:08:00-05:00
   [SEARCH]: node exec vs spawn
-2016-03-23T08:59:34
+2016-03-23T08:59:34-05:00
   After a very frustrating search, I gave up and sent a question to stackoverflow about bash history in node.js. Here's the link: http://stackoverflow.com/questions/36180205/execute-fc-ln-1-bash-history-in-node-js-spawn
-2016-03-23T09:00:28
+2016-03-23T09:00:28-05:00
   [GOAL]: Be able to log last CLI command
-2016-03-23T09:02:04
+2016-03-23T09:02:04-05:00
   [$]: git add --all
-2016-03-23T09:02:18
+2016-03-23T09:02:18-05:00
   [$]: git commit -m 'WIP: Adding support for work start/stop'
-2016-03-23T09:02:37
+2016-03-23T09:02:37-05:00
   ---- WORK STOP ----
-2016-03-23T20:13:25
+2016-03-23T20:13:25-05:00
   ---- WORK START ----
-2016-03-23T20:13:36
+2016-03-23T20:13:36-05:00
   I will hardcode the history file locations, and hopefully work in all Mac envs. I'll make sure to make it extendable.
-2016-03-23T21:30:53
+2016-03-23T21:30:53-05:00
   [$]: git add --all
-2016-03-23T21:31:45
+2016-03-23T21:31:45-05:00
   [$]: git commit -m "WIP: Logging last CLI command. Missing tests"
-2016-03-23T21:31:45
+2016-03-23T21:31:45-05:00
   ---- WORK STOP ----
-2016-03-25T06:48:44
+2016-03-25T06:48:44-05:00
   ---- WORK START ----
-2016-03-25T06:49:06
+2016-03-25T06:49:06-05:00
   [GOAL]: Complete tests for -s option
-2016-03-25T07:00:14
+2016-03-25T07:00:14-05:00
   Today I also have the time until Anna wakes up. Which means short.
-2016-03-25T07:03:12
+2016-03-25T07:03:12-05:00
   Ugh! Testing the -s command is as problematic as creating the command.
-2016-03-25T07:08:45
+2016-03-25T07:08:45-05:00
   [IDEA]: Change log path for test cases
-2016-03-25T07:11:11
+2016-03-25T07:11:11-05:00
   [GOAL]: Allow user to define current log path
-2016-03-25T07:21:11
+2016-03-25T07:21:11-05:00
   [SEARCH]: Object.assign polyfill
-2016-03-25T07:21:11
+2016-03-25T07:21:11-05:00
   [SEARCH]: mocha before async
-2016-03-25T08:10:41
+2016-03-25T08:10:41-05:00
   Config file is behaving pretty sweet!
-2016-03-25T08:51:10
+2016-03-25T08:51:10-05:00
   Awesome config file. Now let's test it.
-2016-03-25T09:05:36
+2016-03-25T09:05:36-05:00
   Tests completed for config file. User now can add/remove properties to a config file. Reading goals again...
-2016-03-25T09:09:19
+2016-03-25T09:09:19-05:00
   [GOAL]: Sub goals logic
-2016-03-25T09:58:53
+2016-03-25T09:58:53-05:00
   ---- COFFEE BREAK ----
-2016-03-25T12:35:31
+2016-03-25T12:35:31-05:00
   That coffee break took longer than expected. Anna woke up.
-2016-03-25T12:51:05
+2016-03-25T12:51:05-05:00
   [GOAL]: Be able to mark subgoals as finished. Goals don't need to be marked as finished. Just overwritten with new goals.
-2016-03-25T12:51:22
+2016-03-25T12:51:22-05:00
   Need to write tests for sub goals behavior
-2016-03-25T13:20:59
+2016-03-25T13:20:59-05:00
   Mark goals as done, done. Testing them now.
-2016-03-25T13:36:05
+2016-03-25T13:36:05-05:00
   Tests partially done. Will complete tomorrow...
-2016-03-25T13:36:22
+2016-03-25T13:36:22-05:00
   [$]: git add --all
-2016-03-25T13:36:33
+2016-03-25T13:36:33-05:00
   [$]: git commit -m "WIP: Several improvements"
-2016-03-25T14:32:15
+2016-03-25T14:32:15-05:00
   ---- WORK STOP ----
-2016-03-25T14:31:58
+2016-03-25T14:31:58-05:00
   ---- WORK START ----
-2016-03-25T14:32:40
+2016-03-25T14:32:40-05:00
   Continue work on test cases for goals/subgoals
-2016-03-25T15:28:32
+2016-03-25T15:28:32-05:00
   Done test cases for goal/subgoal
-2016-03-25T15:34:53
+2016-03-25T15:34:53-05:00
   Trigger web search from console.
-2016-03-25T16:06:19
+2016-03-25T16:06:19-05:00
   I'm not sure that search engine can be tested
-2016-03-25T16:43:00
+2016-03-25T16:43:00-05:00
   I set a little trick to get the tests for search, but I found out that equal sign is needed.
-2016-03-25T17:01:31
+2016-03-25T17:01:31-05:00
   Search option completed and tested. Looking into the first goals...
-2016-03-25T17:02:41
+2016-03-25T17:02:41-05:00
   [GOAL]: Be able to log filtered by TODOs (assign ID to track them down)
     [#1]: Be able to complete TODOs by ID
-2016-03-25T17:14:59
+2016-03-25T17:14:59-05:00
   [$]: git add --all
-2016-03-25T17:15:13
+2016-03-25T17:15:13-05:00
   [$]: git commit -m "WIP: Finished goals and search features"
-2016-03-25T17:15:43
+2016-03-25T17:15:43-05:00
   ---- WORK STOP ----
-2016-03-27T06:59:32
+2016-03-27T06:59:32-05:00
   ---- WORK START ----
-2016-03-27T06:59:48
+2016-03-27T06:59:48-05:00
   Goal remains the same.
-2016-03-27T07:00:13
+2016-03-27T07:00:13-05:00
   [IDEA]: Need to pass the "split in pair" function to match the formatting. If there are going to be multiple formattings, it doesn't make sense to have only one.
-2016-03-27T08:13:44
+2016-03-27T08:13:44-05:00
   TODO option complete with tests
-2016-03-27T08:13:51
+2016-03-27T08:13:51-05:00
   ---- COFFEE BREAK ----
-2016-03-27T08:33:50
+2016-03-27T08:33:50-05:00
   I wasn't in coffee break, since I was purging a bug. Coffee break starts now!
-2016-03-27T08:34:20
+2016-03-27T08:34:20-05:00
   ---- COFFEE BREAK ----
-2016-03-27T08:44:15
+2016-03-27T08:44:15-05:00
   Anna woke up! Better wrap this up.
-2016-03-27T08:45:47
+2016-03-27T08:45:47-05:00
   [GOAL]: Finish the log command
     [#1]: Be able to edit the last log entry (that is not a Coffee Break) Should be called something like "amend"
     [#2]: Be able to log ideas
-2016-03-27T08:46:24
+2016-03-27T08:46:24-05:00
   Working on ideas func now. It's simpler.
-2016-03-27T08:49:32
+2016-03-27T08:49:32-05:00
   Done the test case for Ideas. It was ready all this time. Now for the amend option...
-2016-03-27T08:53:17
+2016-03-27T08:53:17-05:00
   Hmmm, not sure if letting the user amend goals, subgoals, todos, etc. Need to think about that use case.
-2016-03-27T08:55:25
+2016-03-27T08:55:25-05:00
   Seems like my time is up. Until next time!
-2016-03-27T08:59:25
+2016-03-27T08:59:25-05:00
   [GOAL]: Think about 'amend' feature
-2016-03-27T08:59:47
+2016-03-27T08:59:47-05:00
   [$]: git add --all
-2016-03-27T09:00:01
+2016-03-27T09:00:01-05:00
   [$]: git commit -m "Completed all log options"
-2016-03-27T09:00:01
+2016-03-27T09:00:01-05:00
   ---- WORK STOP ----
-2016-03-27T21:18:55
+2016-03-27T21:18:55-05:00
   ---- WORK START ----
-2016-03-27T21:19:25
+2016-03-27T21:19:25-05:00
   [GOAL]: Build amend feature
-2016-03-27T21:29:36
+2016-03-27T21:29:36-05:00
   [SEARCH]: difference of arrays javascript
-2016-03-27T22:06:41
+2016-03-27T22:06:41-05:00
   Need to handle errors when file can't be read/written
-2016-03-27T22:25:26
+2016-03-27T22:25:26-05:00
   Finished functionality. Missing tests.
-2016-03-27T22:25:51
+2016-03-27T22:25:51-05:00
   [$]: git add --all
-2016-03-27T22:25:55
+2016-03-27T22:25:55-05:00
   [$]: git commit -m "Completed amend feature. Missing tests"
-2016-03-27T22:26:10
+2016-03-27T22:26:10-05:00
   ---- WORK STOP ----
-2016-03-28T06:31:23
+2016-03-28T06:31:23-05:00
   ---- WORK START ----
-2016-03-28T06:31:34
+2016-03-28T06:31:34-05:00
   [GOAL]: Write tests for amend feature
-2016-03-28T06:31:47
+2016-03-28T06:31:47-05:00
   Cleaning out the code a little
-2016-03-28T06:58:40
+2016-03-28T06:58:40-05:00
   half way there. Won't commit this time though.
-2016-03-28T06:58:53
+2016-03-28T06:58:53-05:00
   ---- WORK STOP ----
-2016-03-28T08:35:23
+2016-03-28T08:35:23-05:00
   ---- WORK START ----
-2016-03-28T08:37:46
+2016-03-28T08:37:46-05:00
   It shouldn't be able to edit searches. Duh.
-2016-03-28T08:37:46
+2016-03-28T08:37:46-05:00
   ---- COFFEE BREAK ----
-2016-03-28T09:29:27
+2016-03-28T09:29:27-05:00
   Adding all of the new stuff
-2016-03-28T09:29:49
+2016-03-28T09:29:49-05:00
   [$]: git add --all
-2016-03-28T09:29:52
+2016-03-28T09:29:52-05:00
   [$]: git commit -m "Completed all log options (with amend)"
-2016-03-28T09:29:55
+2016-03-28T09:29:55-05:00
   ---- WORK STOP ----
-2016-03-28T13:28:24
+2016-03-28T13:28:24-05:00
   ---- WORK START ----
-2016-03-28T13:28:31
+2016-03-28T13:28:31-05:00
   Need to be able to create log file on any command, unless an error.
-2016-03-28T13:28:58
+2016-03-28T13:28:58-05:00
   [GOAL]: Fix bug with work command when logging.
-2016-03-28T13:48:10
+2016-03-28T13:48:10-05:00
   Bug fixed. However, I'm not creating a test case for this. Too messy.
-2016-03-28T13:49:27
+2016-03-28T13:49:27-05:00
   [$]: git add --all
-2016-03-28T13:49:30
+2016-03-28T13:49:30-05:00
   [$]: git commit -m "Fixing bug when logging work for the first time"
-2016-03-28T13:49:38
+2016-03-28T13:49:38-05:00
   ---- WORK STOP ----
-
+2016-03-28T17:18:11-05:00
+  ---- WORK START ----
+2016-03-28T17:18:57-05:00
+  [GOAL]: Start working on ls command
+2016-03-28T17:22:31-05:00
+  [IDEA]: User can specify in config how many log entries should be shown. Default to 10
+2016-03-28T17:26:29-05:00
+  [SEARCH]: commander options with value
+2016-03-28T17:28:40-05:00
+  Ugh. Found out there was a better way to do stuff.
+2016-03-28T18:04:37-05:00
+  First view draft
+2016-03-28T18:05:18-05:00
+  [$]: git add --all
+2016-03-28T18:05:50-05:00
+  [$]: git commit -m "First ls draft"
+2016-03-28T18:06:18-05:00
+  ---- WORK STOP ----
