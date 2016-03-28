@@ -30,6 +30,7 @@ describe('Coffee / Work options', function() {
       })
       .done(done);
   });
+
   it('should toggle work message', function (done) {
     var verb;
 

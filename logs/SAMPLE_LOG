@@ -358,3 +358,18 @@
   [$]: git commit -m "Completed all log options (with amend)"
 2016-03-28T09:29:55
   ---- WORK STOP ----
+2016-03-28T13:28:24
+  ---- WORK START ----
+2016-03-28T13:28:31
+  Need to be able to create log file on any command, unless an error.
+2016-03-28T13:28:58
+  [GOAL]: Fix bug with work command when logging.
+2016-03-28T13:48:10
+  Bug fixed. However, I'm not creating a test case for this. Too messy.
+2016-03-28T13:49:27
+  [$]: git add --all
+2016-03-28T13:49:30
+  [$]: git commit -m "Fixing bug when logging work for the first time"
+2016-03-28T13:49:38
+  ---- WORK STOP ----
+
