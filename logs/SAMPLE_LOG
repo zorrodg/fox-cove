@@ -316,3 +316,22 @@
   [$]: git add --all
 2016-03-27T09:00:01
   [$]: git commit -m "Completed all log options"
+2016-03-27T09:00:01
+  ---- WORK STOP ----
+2016-03-27T21:18:55
+  ---- WORK START ----
+2016-03-27T21:19:25
+  [GOAL]: Build amend feature
+2016-03-27T21:29:36
+  [SEARCH]: difference of arrays javascript
+2016-03-27T22:06:41
+  Need to handle errors when file can't be read/written
+2016-03-27T22:25:26
+  Finished functionality. Missing tests.
+2016-03-27T22:25:51
+  [$]: git add --all
+2016-03-27T22:25:55
+  [$]: git commit -m "Completed amend feature. Missing tests"
+2016-03-27T22:26:10
+  ---- WORK STOP ----
+
