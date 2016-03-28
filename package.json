@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/zorrodg/fox-cove/issues"
   },
-  "CONFIG_PATH": "./config.json",
+  "CONFIG_PATH": "./fxc.json",
   "defaults": {
     "LOG_PATH": "./logs/CURRENT",
     "SHELL_HISTORY_LOCATIONS": {

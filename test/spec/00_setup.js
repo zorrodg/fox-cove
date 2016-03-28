@@ -17,10 +17,10 @@ var TEST_CONFIG = {
 
 before(function (done) {
   console.log('Setup');
-  stat(resolve('./config.json'))
+  stat(resolve('./fxc.json'))
     .then(function (stat) {
       if (stat.isFile()) {
-        return readFile(resolve('./config.json'));
+        return readFile(resolve('./fxc.json'));
       }
     })
     .catch(function (err) {
@@ -31,7 +31,7 @@ before(function (done) {
         tmpConfig = fileContents.toString('utf8');
         console.log('Preserving config:', tmpConfig);
       }
-      return writeFile(resolve('./config.json'), JSON.stringify(TEST_CONFIG));
+      return writeFile(resolve('./fxc.json'), JSON.stringify(TEST_CONFIG));
     })
     .done(done);
 });
@@ -41,10 +41,10 @@ after(function (done) {
   var promise;
 
   if (tmpConfig) {
-    promise = writeFile(resolve('./config.json'), tmpConfig);
+    promise = writeFile(resolve('./fxc.json'), tmpConfig);
     console.log('Restoring config:', tmpConfig);
   } else {
-    promise = unlink(resolve('./config.json'));
+    promise = unlink(resolve('./fxc.json'));
   }
 
   promise.done(done);

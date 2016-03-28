@@ -11,7 +11,7 @@ describe('Config file', function () {
     runProcess('fxc', ['config', '--set', 'hello=world'])
       .then(function (output) {
         assert.equal(output, 'Property "hello" set to "world"\n');
-        return readFile(resolve('./config.json'));
+        return readFile(resolve('./fxc.json'));
       })
       .then(function (file) {
         file = JSON.parse(file.toString('utf8'));
@@ -32,7 +32,7 @@ describe('Config file', function () {
     runProcess('fxc', ['config', '--set', 'hello'])
       .then(function (output) {
         assert.equal(output, 'Property "hello" removed\n');
-        return readFile(resolve('./config.json'));
+        return readFile(resolve('./fxc.json'));
       })
       .then(function (file) {
         file = JSON.parse(file.toString('utf8'));
