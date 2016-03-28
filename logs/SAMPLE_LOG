@@ -334,4 +334,27 @@
   [$]: git commit -m "Completed amend feature. Missing tests"
 2016-03-27T22:26:10
   ---- WORK STOP ----
-
+2016-03-28T06:31:23
+  ---- WORK START ----
+2016-03-28T06:31:34
+  [GOAL]: Write tests for amend feature
+2016-03-28T06:31:47
+  Cleaning out the code a little
+2016-03-28T06:58:40
+  half way there. Won't commit this time though.
+2016-03-28T06:58:53
+  ---- WORK STOP ----
+2016-03-28T08:35:23
+  ---- WORK START ----
+2016-03-28T08:37:46
+  It shouldn't be able to edit searches. Duh.
+2016-03-28T08:37:46
+  ---- COFFEE BREAK ----
+2016-03-28T09:29:27
+  Adding all of the new stuff
+2016-03-28T09:29:49
+  [$]: git add --all
+2016-03-28T09:29:52
+  [$]: git commit -m "Completed all log options (with amend)"
+2016-03-28T09:29:55
+  ---- WORK STOP ----

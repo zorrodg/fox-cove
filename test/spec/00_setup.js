@@ -10,7 +10,7 @@ var unlink = Q.denodeify(fs.unlink);
 
 var tmpConfig;
 var TEST_CONFIG = {
-  "LOG_PATH": "./logs/TEST",
+  "LOG_PATH": "./test-logs/TEST",
   "_TESTING": true,
   "FORMAT": "default"
 };

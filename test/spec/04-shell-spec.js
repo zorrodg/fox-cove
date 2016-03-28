@@ -2,9 +2,6 @@
 
 var assert = require('assert');
 var runProcess = require('./../../lib/util/run-process').runProcess;
-var path = require('path');
-var Q = require('q');
-var readFile = Q.denodeify(require('fs').readFile);
 
 describe('Shell option', function () {
   it('should log last used command', function (done) {

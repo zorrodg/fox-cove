@@ -2,7 +2,7 @@
 
 var assert = require('assert');
 var runProcess = require('./../../lib/util/run-process').runProcess;
-var path = require('path');
+var resolve = require('path').resolve;
 var Q = require('q');
 var readFile = Q.denodeify(require('fs').readFile);
 
@@ -11,7 +11,7 @@ describe('Config file', function () {
     runProcess('fxc', ['config', '--set', 'hello=world'])
       .then(function (output) {
         assert.equal(output, 'Property "hello" set to "world"\n');
-        return readFile(path.resolve('./config.json'));
+        return readFile(resolve('./config.json'));
       })
       .then(function (file) {
         file = JSON.parse(file.toString('utf8'));
@@ -32,7 +32,7 @@ describe('Config file', function () {
     runProcess('fxc', ['config', '--set', 'hello'])
       .then(function (output) {
         assert.equal(output, 'Property "hello" removed\n');
-        return readFile(path.resolve('./config.json'));
+        return readFile(resolve('./config.json'));
       })
       .then(function (file) {
         file = JSON.parse(file.toString('utf8'));
