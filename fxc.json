@@ -1,1 +1,1 @@
-{"LOG_PATH":"./logs/WORKLOG","SORT":"ASC", "TIME_FORMAT":"MM/DD/YYYY hh:mm:ss"}
+{"LOG_PATH":"./logs/WORKLOG","SORT":"ASC", "TIME_FORMAT":"YYYY/MM/DD h:mm:ss A"}

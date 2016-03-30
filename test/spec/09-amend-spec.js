@@ -29,7 +29,7 @@ describe('Amend option', function() {
         return readFile(resolve(config.LOG_PATH), 'utf-8');
       })
       .then(function (data) {
-        data = splitInPairs(data);
+        data = splitInPairs(data, false, config);
         assert.equal(data[data.length - 1][1], 'Second log');
       })
       .done(done);
@@ -57,7 +57,7 @@ describe('Amend option', function() {
         return readFile(resolve(config.LOG_PATH), 'utf-8');
       })
       .then(function (data) {
-        data = splitInPairs(data);
+        data = splitInPairs(data, false, config);
         var regex = new RegExp('\\[' + selected + '(?: #\\d+)?\\]: Second log');
         assert.equal(data[data.length - 1][1], 'Third log');
         assert.ok(regex.test(data[data.length - 2][1]), 'Third regex');
@@ -84,7 +84,7 @@ describe('Amend option', function() {
         return readFile(resolve(config.LOG_PATH), 'utf-8');
       })
       .then(function (data) {
-        data = splitInPairs(data);
+        data = splitInPairs(data, false, config);
         var goal = data[data.length - 1];
         var subgoal = goal[goal.length - 1];
 
@@ -106,7 +106,7 @@ describe('Amend option', function() {
         return readFile(resolve(config.LOG_PATH), 'utf-8');
       })
       .then(function (data) {
-        data = splitInPairs(data);
+        data = splitInPairs(data, false, config);
         var line = data[data.length - 2];
 
         assert.equal(line[1], 'Line 1');

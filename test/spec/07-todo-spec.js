@@ -54,7 +54,7 @@ describe('TODO option', function () {
         return readFile(resolve(config.LOG_PATH), 'utf-8');
       })
       .then(function (data) {
-        data = splitInPairs(data);
+        data = splitInPairs(data, false, config);
         assert.equal(data[data.length - 1][1], '[TODO #' + consecutive + ']: -- DONE -- Test TODO mark done');
         return runProcess('fxc', ['--done-todo', consecutive]);
       })

@@ -404,3 +404,15 @@
   [SEARCH]: chalk dim not working on iTerm2
 2016-03-29T14:38:26-05:00
   ---- WORK STOP ----
+2016-03-30T13:20:32-05:00
+  [GOAL]: Customize logging new lines and tabs
+2016-03-30T13:36:49-05:00
+  ---- WORK START ----
+2016-03-30T13:38:07-05:00
+  [GOAL]: Add basic colors to differentiate labels
+2016-03-30T13:44:09-05:00
+  [TODO #2]: Add tests for character tabs and new lines
+2016-03-30T13:54:20-05:00
+  [IDEA]: Add timestamp when TODO is done
+2016-03-30T14:01:17-05:00
+  ---- WORK STOP ----

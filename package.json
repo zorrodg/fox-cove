@@ -29,7 +29,6 @@
       "zsh": "/.zsh_history",
       "fish": "/.config/fish/fish_history"
     },
-    "FORMAT": "default",
     "SEARCH_ENGINE": "google",
     "SEARCH_ENGINE_LIST": {
       "google": "https://www.google.com.co/search?q=",
@@ -38,7 +37,17 @@
       "yandex": "https://www.yandex.com/search/?text="
     },
     "PAGE_LENGTH": 10,
-    "SORT": "DESC"
+    "SORT": "ASC",
+    "TIME_FORMAT":"MM/DD/YYYY hh:mm A",
+    "FORMAT": "default",
+    "INPUT": {
+      "NEW_LINE_CHAR": "\n",
+      "TAB_CHAR": "  "
+    },
+    "OUTPUT": {
+      "NEW_LINE_CHAR": "\n",
+      "JOIN_CHAR": "\n"
+    }
   },
   "homepage": "https://github.com/zorrodg/fox-cove#readme",
   "dependencies": {

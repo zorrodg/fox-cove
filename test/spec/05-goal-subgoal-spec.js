@@ -25,7 +25,7 @@ describe('Goal / Subgoal options', function () {
         return readFile(resolve(config.LOG_PATH), 'utf-8');
       })
       .then(function (data) {
-        data = splitInPairs(data);
+        data = splitInPairs(data, false, config);
         assert.equal(data[data.length - 1][1], '[GOAL]: Test goal');
       })
       .done(done);
@@ -38,7 +38,7 @@ describe('Goal / Subgoal options', function () {
         return readFile(resolve(config.LOG_PATH), 'utf-8');
       })
       .then(function (data) {
-        data = splitInPairs(data);
+        data = splitInPairs(data, false, config);
         assert.equal(data[data.length - 1][2], '[#1]: Test subgoal');
       })
       .done(done);
@@ -51,7 +51,7 @@ describe('Goal / Subgoal options', function () {
         return readFile(resolve(config.LOG_PATH), 'utf-8');
       })
       .then(function (data) {
-        data = splitInPairs(data);
+        data = splitInPairs(data, false, config);
         assert.equal(data[data.length - 1][2], '[#1]: -- DONE -- Test subgoal');
       })
       .done(done);

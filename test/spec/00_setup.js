@@ -12,7 +12,14 @@ var tmpConfig;
 var TEST_CONFIG = {
   "LOG_PATH": "./test-logs/TEST",
   "_TESTING": true,
-  "FORMAT": "default"
+  "FORMAT": "default",
+  "PAGE_LENGTH": 10,
+  "SORT": "ASC",
+  "TIME_FORMAT":"MM/DD/YYYY hh:mm:ss",
+  "INPUT": {
+    "NEW_LINE_CHAR": "\n",
+    "TAB_CHAR": "  "
+  }
 };
 
 before(function (done) {

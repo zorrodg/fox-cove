@@ -25,7 +25,7 @@ describe('Coffee / Work options', function() {
         return readFile(resolve(config.LOG_PATH), 'utf-8');
       })
       .then(function (data) {
-        data = splitInPairs(data);
+        data = splitInPairs(data, false, config);
         assert.equal(data[data.length - 1][1], '---- COFFEE BREAK ----');
       })
       .done(done);
@@ -52,7 +52,7 @@ describe('Coffee / Work options', function() {
       })
       .then(function (data) {
         var result = [];
-        data = splitInPairs(data);
+        data = splitInPairs(data, false, config);
         result.push(data.pop()[1]);
         result.push(data.pop()[1]);
 
